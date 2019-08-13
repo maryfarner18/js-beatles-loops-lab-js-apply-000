@@ -4,7 +4,7 @@
 //in new array
 function theBeatlesPlay(musicians, instruments) {
   var phrases = []
-  var size = musicians.size()
+  var size = musicians.length
   
   for(var i=0; i<size; i++) {
     phrases[i] = musicians[i] + " plays " + instruments[i]
@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
 
   var i=0
   
-  while(i < facts.size()) {
+  while(i < facts.length) {
     facts[i] = facts[i] + "!!!"
     
   }
