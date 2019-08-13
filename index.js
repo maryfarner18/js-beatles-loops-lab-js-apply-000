@@ -3,5 +3,7 @@ function theBeatlesPlay(musicians[], instruments[]) {
   var phrases = []
   var size = musicians.size()
   
-  for()
+  for(var i=0; i<size; i++) {
+    
+  }
 }
