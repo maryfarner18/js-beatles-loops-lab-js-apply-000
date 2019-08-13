@@ -1,4 +1,7 @@
 // add solution here
+
+//concetenates the musician and the instrument and stores
+//in new array
 function theBeatlesPlay(musicians, instruments) {
   var phrases = []
   var size = musicians.length()
@@ -11,4 +14,5 @@ function theBeatlesPlay(musicians, instruments) {
   return phrases
 
 }
+
 
