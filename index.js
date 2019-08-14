@@ -35,10 +35,6 @@ function iLoveTheBeatles(num) {
   var phrases = []
   var diff = 15 - num
   
-  if(diff < 0) {
-    return phrases
-  }
-  
   var i = 0
   do {
     
